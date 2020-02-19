@@ -1,0 +1,35 @@
+{
+  "name": "gulp",
+  "description": "Gulp",
+  "version": "1.0.0",
+  "author": "Author Name",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "beepbeep": "^1.2.2",
+    "browser-sync": "^2.11.1",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-filter": "^5.1.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-plumber": "^1.2.0",
+    "gulp-purgecss": "^1.2.0",
+    "gulp-remember": "^1.0.1",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.2",
+    "gulp-uglify": "^3.0.0"
+  },
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  }
+}
